@@ -119,7 +119,8 @@ public class TasksTest {
 			driver.quit();
 		}
 	}
-		
+
+	@Ignore	
 	@Test
 	public void deveRemoverTarefaComSucesso() throws MalformedURLException {
 		WebDriver driver = acessarAplicacao();

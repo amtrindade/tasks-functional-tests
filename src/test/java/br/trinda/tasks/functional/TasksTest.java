@@ -84,7 +84,6 @@ public class TasksTest {
 		}
 	}
 
-	@Ignore("Falta ajustar funcionalidade")
 	@Test
 	public void deveRemoverTarefaComSucesso() throws MalformedURLException {
 		WebDriver driver = acessarAplicacao();
